@@ -1,20 +1,7 @@
 simple-javacript-example
 ========================
-This Example shows the for-in loop.
-<p id="demo"></p>
 
-<script>
-var txt = "";
-var person = {fname:"Marufa", lname:"Montaha", age:26}; 
-var x;
-for (x in person) {
-    txt += person[x] + " ";
-}
-// console.log(x);
-//console.log(txt);
-document.getElementById("demo").innerHTML = txt;
-</script>
-
+file name js_for_in.php 
 The JavaScript for...in statement loops through the properties of an object.
   To understand this example for newbies like am explain each line of this script.
 
